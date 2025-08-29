@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 
+// 일단 초반에는 @Entity랑 @Data만 달아서 사용해도 ㄱㅊ대
 @Entity // 얘를 감지해서 테이브링 있는지 체크하고 객체와 연결하게 해주는 애너테이션
 //@Getter // .get~
 //@Setter // .set~
